@@ -36,7 +36,7 @@ function list() {
 	var soundtheta = 2*Math.PI - theta // the sound source's relative angle
 	// Now I know theta (range 0 to 2pi)
 	
-	var n = 4; //later this will be 24 (15 degree Pi/12 increment), when n=4, 90 degree increment
+	var n = 24; //for example, when n=4, it is 90 degree increment
 	
 	var increment = 2*Math.PI/n;
 	
